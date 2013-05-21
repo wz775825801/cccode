@@ -79,7 +79,7 @@ $AUTHZFB auth.alipay.com
 0.0.0.0 lessthanjake.limitedrun.com/
 $ARCHWIKI wiki.archlinux.org
 #google
-$GOOGLE  0-focus-opensocial.googleusercontent.com	
+$GOOGLE    0-focus-opensocial.googleusercontent.com	
 $GOOGLE	3hdrrlnlknhi77nrmsjnjr152ueo3soc-a-calendar-opensocial.googleusercontent.com	
 $GOOGLE	accounts.google.com	
 $GOOGLE	zoujichunblog.appspot.com	
