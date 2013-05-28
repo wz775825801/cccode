@@ -1,0 +1,93 @@
+9:12 start Charging 2013.5.25 预12:12
+
+chrome --disk-cache-dir="/tmp/chrome" --disable-java --disk-cache-size=262144000 %U
+
+--user-data-dir="/tmp/chrome/"
+
+
+/opt/google/chrome/google-chrome --disk-cache-dir="/tmp/chrome" --disable-java --disk-cache-size=262144000 %U
+
+http://redirect.ero-advertising.com
+
+http://wiki.manjaro.org/index.php/Pacman_troubleshooting
+
+http://translate.google.com.hk/translate?hl=en&ie=UTF8&prev=_t&sl=en&tl=zh-CN&u=http://wiki.manjaro.org/index.php/Pacman_troubleshooting
+
+
+http://manjaro.org/2012/09/19/testing-repositories/
+
+  pypanel bluez
+
+sudo pacman -S yaourt base-devel sakura xfce4-taskmanager dnsutils mousepad pcmanfm xfburn lxshortcut 
+
+sudo su
+yaourt chromium bin
+yaourt aliedit
+yaourt chrome dev
+ yaourt namebench
+ yaourt chromium-pepper-flash
+ yaourt goagent-git
+ yaourt xarchiver
+ yaourt sunflower
+sudo pacman -Rs xterm thunar xnoise xscreensaver evince qupzilla libreoffice-installer synapse conky galculator htop 
+flashplugin leafpad file-roller parcellite lxterminal
+
+--user-data-dir="/tmp/chrome/"
+
+
+==========================================
+/usr/bin/chromium --disk-cache-dir="/tmp/chromium" --disable-java --disk-cache-size=262144000 %U
+
+sudo pacman -Sc $(pacman -Qdtq)
+
+sudo rm /var/lib/pacman/db.lck
+
+孤儿包
+sudo pacman -Rs $(pacman -Qqdt)
+
+优化pacman
+
+# pacman-optimize
+
+
+ pacman -Sc && pacman-optimize
+
+linux-ck安装
+
+加源到 /etc/pacman.conf
+1) 添加下面的代码到 /etc/pacman.conf (我把这个条目放在文件末尾):
+[repo-ck]
+Server = http://repo-ck.com/$arch
+2) 通过 pacman -Syy 刷新
+完成了。想查看这个源的内容，这样搜索：
+$ pacman -Sl repo-ck
+
+It should be enough to just run grub-mkconfig -o /boot/grub/grub.cfg again.
+
+namebench
+python2.7 /usr/bin/namebench.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo pacman -Rs thunar 
+sudo pacman -Rs xnoise
+
+sudo pacman -S thunar xnoise
+
