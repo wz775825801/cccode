@@ -52,7 +52,7 @@ wine_apps: windows applications installed via wine
 require '/home/z/.config/obmenu-generator/config.pl';
 
 our $SCHEMA = [
-#             COMMAND                   LABEL          		ICON
+#             COMMAND                 	LABEL          		ICON
    {item => ['/usr/bin/pcmanfm',      		'Pcmanfm','system-file-manager']},
    {item => ['/opt/google/chrome/google-chrome --disk-cache-dir="/tmp/chrome" --disable-java --disk-cache-size=262144000 %U',   	 	'Chrome','google-chrome']},
    {item => ['/usr/bin/sakura',   	 	'Sakura','utilities-terminal']},
