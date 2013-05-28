@@ -70,9 +70,10 @@ done
 
 cat >>$hosts <<EOF
 #start_update_hosts
+0.0.0.0 ck.juicyads.com
 $WIKIIMG upload.wikimedia.org
 $GOOGLE3 www.google.ca
-$GOOGLE2  www.google.com	
+$GOOGLE2    www.google.com	
 $GOOGLE3	plus.google.com	
 $GOOGLE2	lh4.googleusercontent.com	
 $IMGFST imgfast.dmzj.com
