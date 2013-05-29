@@ -54,14 +54,14 @@ require '/home/z/.config/obmenu-generator/config.pl';
 our $SCHEMA = [
 #             COMMAND                 	LABEL          		ICON
    {item => ['/usr/bin/pcmanfm',      		'Pcmanfm','system-file-manager']},
-   {item => ['/opt/google/chrome/google-chrome --disk-cache-dir="/tmp/chrome" --disable-java --disk-cache-size=262144000 %U',   	 	'Chrome','google-chrome']},
+   {item => ['/opt/google/chrome/google-chrome --disk-cache-dir="/tmp/chrome" --disable-java --disk-cache-size=262144000 %U',   	 	'Chrome','/usr/share/icons/Faenza/apps/16/google-chrome.png']},
    {item => ['/usr/bin/sakura',   	 	'Sakura','utilities-terminal']},
-      {item => ['/usr/bin/chromium --disk-cache-dir="/tmp/chromium" --disable-java --disk-cache-size=262144000 %U',   	 	'Chromium','chromium.png']},
+      {item => ['/usr/bin/chromium --disk-cache-dir="/tmp/chromium" --disable-java --disk-cache-size=262144000 %U',   	 	'Chromium','/usr/share/icons/Faenza/apps/16/chromium.png']},
    {item => ['/usr/bin/gnome-screenshot --interactive', 'Screenshot','gnome-screenshot']},
       {item => ['/usr/bin/geany', 'geany','geany']},
-      {item => ['/usr/bin/pamac-manager', 'Add/Remove Software','system-software-install']},
+      {item => ['/usr/bin/pamac-manager', 'Add/Remove Software','/usr/share/icons/Faenza/apps/16/system-software-install.png']},
  
-      {item => ['/usr/bin/sunflower',      		'sunflower','sunflower']},
+      {item => ['python2 /opt/goagent/local/goagent-gtk.py',      		'goagent-gtk.py','/opt/goagent/local/goagent-logo.png']},
      
     {sep => undef},
 
