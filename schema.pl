@@ -61,7 +61,7 @@ our $SCHEMA = [
       {item => ['/usr/bin/geany', 'geany','geany']},
       {item => ['/usr/bin/pamac-manager', 'Add/Remove Software','/usr/share/icons/Faenza/apps/16/system-software-install.png']},
  
-      {item => ['python2 /opt/goagent/local/goagent-gtk.py',      		'goagent-gtk.py','/opt/goagent/local/goagent-logo.png']},
+      {item => ['sudo python3 /usr/share/goagent/local/proxy.py',      		'proxy.py','/usr/share/goagent/local/proxy.py']},
      
     {sep => undef},
 
