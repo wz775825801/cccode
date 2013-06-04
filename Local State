@@ -3,7 +3,7 @@
       "enabled": false
    },
    "browser": {
-      "enabled_labs_experiments": [ "action-box@2", "default-tile-height@1", "default-tile-width@1", "disable-accelerated-2d-canvas", "disable-encrypted-media", "disable-gpu-vsync", "disable-hyperlink-auditing", "disable-media-source", "disable-native-autofill-ui", "disable-ntp-other-sessions-menu", "disable-restore-session-state", "disable-threaded-animation", "disable-touch-adjustment", "disable-webgl", "enable-async-dns@2", "enable-compositing-for-fixed-position@2", "enable-compositing-for-transition@2", "enable-gesture-tap-highlight@2", "enable-instant-extended-api@2", "enable-local-first-load-ntp@2", "enable-local-only-instant-extended-api@2", "enable-quic@2", "enable-sctp-data-channels", "enable-sync-favicons", "enable-sync-synced-notifications@2", "enable-tab-capture@2", "enable-tcp-fast-open", "enable-websocket-experimental-implementation", "fixed-position-creates-stacking-context@2", "force-accelerated-composited-scrolling@1", "force-compositing-mode-2@1", "impl-side-painting@2", "max-tiles-for-interest-area@1", "nacl-debug-mask@2", "omnibox-history-quick-provider-reorder-for-inlining@2", "omnibox-inline-history-quick-provider@2", "per-tile-painting", "script-bubble@2", "sync-keystore-encryption", "threaded-compositing-mode@1", "touch-events@2" ],
+      "enabled_labs_experiments": [ "action-box@2", "default-tile-height@1", "default-tile-width@1", "disable-accelerated-2d-canvas", "disable-encrypted-media", "disable-gpu-vsync", "disable-hyperlink-auditing", "disable-media-source", "disable-native-autofill-ui", "disable-ntp-other-sessions-menu", "disable-restore-session-state", "disable-threaded-animation", "disable-touch-adjustment", "disable-webgl", "enable-apps-devtool-app", "enable-async-dns@2", "enable-compositing-for-fixed-position@2", "enable-compositing-for-transition@2", "enable-gesture-tap-highlight@2", "enable-instant-extended-api@2", "enable-local-first-load-ntp@2", "enable-local-only-instant-extended-api@2", "enable-quic@2", "enable-sctp-data-channels", "enable-sync-favicons", "enable-sync-synced-notifications@2", "enable-tab-capture@2", "enable-tcp-fast-open", "enable-websocket-experimental-implementation", "fixed-position-creates-stacking-context@2", "force-accelerated-composited-scrolling@1", "force-compositing-mode-2@1", "ignore-gpu-blacklist", "impl-side-painting@1", "max-tiles-for-interest-area@1", "nacl-debug-mask@2", "omnibox-history-quick-provider-reorder-for-inlining@2", "omnibox-inline-history-quick-provider@2", "per-tile-painting", "script-bubble@2", "sync-keystore-encryption", "threaded-compositing-mode@1", "touch-events@2" ],
       "last_redirect_origin": ""
    },
    "extensions": {
@@ -15,8 +15,8 @@
    "gl_vendor_string": "nouveau",
    "gl_version_string": "3.0 Mesa 9.1.3",
    "hardware_acceleration_mode_previous": true,
-   "http_original_content_length": "13940189825",
-   "http_received_content_length": "13939579644",
+   "http_original_content_length": "13975396640",
+   "http_received_content_length": "13974786459",
    "local_state": {
       "multiple_profile_prefs_version": 7
    },
@@ -168,28 +168,28 @@
    },
    "uninstall_metrics": {
       "installation_date2": "1369066622",
-      "launch_count": "172"
+      "launch_count": "178"
    },
    "user_experience_metrics": {
       "low_entropy_source": 689,
-      "session_id": 171,
+      "session_id": 177,
       "stability": {
-         "breakpad_registration_fail": 23,
+         "breakpad_registration_fail": 29,
          "breakpad_registration_ok": 0,
          "child_process_crash_count": 2,
          "crash_count": 0,
-         "debugger_not_present": 23,
+         "debugger_not_present": 29,
          "debugger_present": 0,
          "exited_cleanly": false,
          "incomplete_session_end_count": 0,
-         "last_timestamp_sec": "1370390676",
-         "launch_count": 23,
-         "launch_time_sec": "1370390677",
+         "last_timestamp_sec": "1370394487",
+         "launch_count": 29,
+         "launch_time_sec": "1370394489",
          "page_load_count": 0,
          "plugin_stats2": [ {
             "crashes": 0,
             "instances": 8,
-            "launches": 35,
+            "launches": 47,
             "loading_errors": 0,
             "name": "Shockwave Flash"
          } ],
